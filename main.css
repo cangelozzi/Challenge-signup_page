@@ -1,0 +1,98 @@
+body {
+    background-color: DodgerBlue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top_logo {
+	height: 35px;
+	width: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+.signup_box {
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 1px solid white;
+	background-color: white;
+	margin: auto;
+	position: relative;
+	top: 30px;
+	box-sizing: border-box;
+	border-radius: 1%;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color: DimGrey;
+}
+
+input, button {
+	width: 320px;
+	padding: 15px;
+	border: 2px solid LightGrey;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	font-size: 19px;
+}
+
+button {
+	background-color: LimeGreen;
+	color: white;
+	font-size: 23px;
+	margin-top: -10px;
+	margin-bottom: auto;
+}
+
+button:hover {
+	background-color: ForestGreen;
+	cursor: pointer;
+}
+
+h4 {
+	text-align: center;
+	margin-top: auto;
+	text-decoration: none;
+}
+
+.password {
+	margin-bottom: 45px;
+}
+
+.password a {
+	color: grey;
+	font-size: 13px;
+	margin-bottom: 25px;
+	text-decoration: none;
+	border-bottom: 1px solid grey;
+}
+
+.LogIn h4 {
+	color: white;
+	margin-top: 50px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.LogIn a {
+	color: white;
+}
+
+input:required {
+  border-color: 2px solid red;
+}
+
+
+
